@@ -1,0 +1,24 @@
+.home {
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.836),
+			rgba(1, 64, 66, 0.897)
+		),
+		url("/img/header.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+.visitors {
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.836),
+			rgba(1, 64, 66, 0.897)
+		),
+		url("/img/header.jpg");
+	clip-path: polygon(100% 0, 100% 50%, 100% 80%, 0 100%, 0 60%, 0 20%);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

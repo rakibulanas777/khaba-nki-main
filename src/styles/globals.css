@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	background-color: #0a142f;
+}
+.card {
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.04) 0%,
+		rgba(37, 37, 37, 0.04) 100%
+	);
+	backdrop-filter: blur(15.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	border: 1px solid rgba(255, 255, 255, 0.432);
+	border-radius: 10px;
+	cursor: pointer;
+}
+.button {
+	background-color: #f06f79;
+}
+.solution {
+	background-color: #353f5b;
+}
+.pink-card {
+	background: linear-gradient(180deg, #f06f79 0%, #64465b 100%);
+}
+.testimonial {
+	background: rgba(59, 67, 89, 0.5);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}

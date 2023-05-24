@@ -16,7 +16,7 @@ const Banner = () => {
 				objectFit="cover"
 			/>
 			<div
-				className="absolute md:top-1/4 top-1/2 -translate-y-1/2 z-10 md:-translate-y-1/4  left-1/2 -translate-x-1/2"
+				className="absolute md:top-1/4 top-1/2 -translate-y-1/2 z-10 md:-translate-y-1/4  left-1/4 -translate-x-1/2"
 				data-aos="fade-down"
 			>
 				<p className="text-3xl sm:text-4xl md:text-5xl leading-relaxed lg:text-7xl font-bold text-white">

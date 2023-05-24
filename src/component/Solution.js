@@ -24,7 +24,7 @@ const Solution = () => {
 							Our Solution Approach
 						</div>
 						<div className="flex flex-col space-y-6">
-							<div className="flex space-x-5">
+							<div className="flex space-x-5" data-aos="zoom-in">
 								<img src="/assets/Group.png" alt="" className="h-6" />
 								<div>
 									<div className="text-xl font-semibold text-white mb-3">
@@ -38,7 +38,7 @@ const Solution = () => {
 									</div>
 								</div>
 							</div>
-							<div className="flex space-x-5">
+							<div className="flex space-x-5" data-aos="zoom-in">
 								<img src="/assets/Group.png" alt="" className="h-6" />
 								<div>
 									<div className="text-xl font-semibold text-white mb-3">
@@ -52,7 +52,7 @@ const Solution = () => {
 									</div>
 								</div>
 							</div>
-							<div className="flex space-x-5">
+							<div className="flex space-x-5" data-aos="zoom-in">
 								<img src="/assets/Group.png" alt="" className="h-6" />
 								<div>
 									<div className="text-xl font-semibold text-white mb-3">

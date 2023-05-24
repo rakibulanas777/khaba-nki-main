@@ -15,7 +15,10 @@ const Solution = () => {
 				>
 					<img src="/assets/Group 1000000846.png" alt="" />
 				</div>
-				<div className=" pb-14 lg:py-14 container mx-auto" data-aos="fade-down">
+				<div
+					className=" px-10 lg:px-0 pb-14 lg:py-14 container mx-auto"
+					data-aos="fade-down"
+				>
 					<div className="flex flex-col space-y-3">
 						<div
 							className="text-4xl font-bold text-white

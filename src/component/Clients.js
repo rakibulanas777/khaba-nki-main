@@ -35,25 +35,40 @@ const Clients = () => {
 					Our Clients
 				</div>
 				<div className=" px-10">
-					<Slider {...settings} className=" flex  justify-center gap-8  ">
+					<Slider
+						{...settings}
+						className=" flex items-center justify-center gap-8  "
+					>
 						<div
 							className="logo cursor-pointer border-0 px-4"
 							data-aos="zoom-in"
 						>
 							<img
 								src="/assets/Vsion Logo 1.png"
-								className="h-14"
+								className="h-14 items-center"
 								alt="logo "
 							/>
 						</div>
 						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img src="/assets/site_logo-10 1.png" alt="logo" />
+							<img
+								src="/assets/site_logo-10 1.png"
+								alt="logo"
+								className="items-center h-14"
+							/>
 						</div>
 						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img src="/assets/Group 1000000836.png" alt="logo" />
+							<img
+								src="/assets/Group 1000000836.png"
+								className="items-center h-14"
+								alt="logo"
+							/>
 						</div>
 						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img src="/assets/logo 1.png" alt="logo" />
+							<img
+								src="/assets/logo 1.png"
+								className="items-center h-14"
+								alt="logo"
+							/>
 						</div>
 						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
 							<img

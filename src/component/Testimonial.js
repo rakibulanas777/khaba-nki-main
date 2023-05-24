@@ -45,7 +45,7 @@ const Testimonial = () => {
 					What happy clients Say
 				</div>
 
-				<div className=" relative z-10">
+				<div className=" z-10">
 					<Slider {...settings}>
 						<div className="h-72 flex flex-col justify-between testimonial p-8 rounded">
 							<div>

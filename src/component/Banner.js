@@ -1,8 +1,12 @@
 import Image from "next/legacy/image";
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
-
+import AOS from "aos";
 const Banner = () => {
+	useEffect(() => {
+		AOS.init();
+		AOS.refresh();
+	}, []);
 	return (
 		<div className="relative h-screen lg:h-screen ">
 			<Image
@@ -11,7 +15,10 @@ const Banner = () => {
 				alt="banner"
 				objectFit="cover"
 			/>
-			<div className="absolute md:top-1/4 top-1/2 -translate-y-1/2 z-10 md:-translate-y-1/4  left-1/2 -translate-x-1/2">
+			<div
+				className="absolute md:top-1/4 top-1/2 -translate-y-1/2 z-10 md:-translate-y-1/4  left-1/2 -translate-x-1/2"
+				data-aos="fade-down"
+			>
 				<p className="text-3xl sm:text-4xl md:text-5xl leading-relaxed lg:text-7xl font-bold text-white">
 					Outsourcing <br /> Agency
 				</p>

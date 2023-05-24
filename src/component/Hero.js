@@ -1,11 +1,19 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
 
 const Hero = () => {
+	useEffect(() => {
+		Aos.init();
+		Aos.refresh();
+	}, []);
 	return (
 		<div>
 			<div className="container py-14 px-10 md:px-6 lg:px-0 mx-auto">
 				<div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-8">
-					<div className="flex flex-col items-center justify-between">
+					<div
+						className="flex flex-col items-center justify-between"
+						data-aos="fade-up"
+					>
 						<div>
 							<div className="text-4xl text-white font-semibold mb-6">
 								High Quality, Cost Effective Services
@@ -24,7 +32,7 @@ const Hero = () => {
 							Contact us
 						</button>
 					</div>
-					<div className="p-5">
+					<div className="p-5 cursor-pointer" data-aos="fade-down">
 						<img src="/assets/Group 1000000845.png" alt="" className="w-full" />
 					</div>
 				</div>

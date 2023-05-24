@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.5",
+    "aos": "^2.3.4",
     "autoprefixer": "^10.4.13",
     "daisyui": "^2.47.0",
     "eslint": "8.32.0",

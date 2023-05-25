@@ -24,7 +24,7 @@ function Navbar() {
 
 	return (
 		<div className="  w-full z-30 relative ease-in duration-300 ">
-			<div className="container mx-auto flex  items-center px-10 lg:px-0 py-2 ">
+			<div className="container mx-auto flex justify-between lg:justify-center  items-center px-10 lg:px-0 py-2 ">
 				<Link
 					href="/"
 					className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"

@@ -37,7 +37,7 @@ const Banner = () => {
 			/>
 			<div className="absolute bottom-10 left-1/4 ">
 				<div className="flex items-center justify-between flex-col">
-					<div className="text-white ">
+					<div className="text-white " data-aos="fade-up">
 						Effortlessly scale your business with our streamlined virtual
 						assistant hiring services. <br /> Experience exceptional results and
 						savings with tailored assistants.

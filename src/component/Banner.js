@@ -20,7 +20,10 @@ const Banner = () => {
 				className="absolute md:top-1/4 top-1/2 -translate-y-1/2 z-10 md:-translate-y-1/4  left-1/4 -translate-x-1/2"
 				data-aos="fade-down"
 			>
-				<p className="text-4xl sm:text-5xl md:text-6xl leading-relaxed lg:text-8xl font-bold text-white ">
+				<p
+					className="text-4xl sm:text-5xl md:text-6xl leading-relaxed lg:text-8xl font-bold text-white "
+					id="aboutus"
+				>
 					Outsourcing <br /> Agency
 				</p>
 			</div>

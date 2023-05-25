@@ -38,7 +38,7 @@ function Navbar() {
 				<ul className="hidden  lg:flex lg:text-xl lg:justify-center mx-auto  lg:items-center font-semibold gap-3 md:space-x-4 !text-gray-900">
 					{/* work */}
 					<Link
-						href="/#foods"
+						href="#aboutus"
 						onClick={() => setActive(0)}
 						className={
 							active === 0
@@ -51,7 +51,7 @@ function Navbar() {
 					{/* login */}
 
 					<Link
-						href="/login"
+						href="#What"
 						onClick={() => setActive(1)}
 						className={
 							active === 1

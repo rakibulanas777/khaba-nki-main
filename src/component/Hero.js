@@ -8,7 +8,7 @@ const Hero = () => {
 	}, []);
 	return (
 		<div>
-			<div className="container py-14 px-10 md:px-6 lg:px-0 mx-auto">
+			<div className="container py-14 px-10 md:px-6 lg:px-0 mx-auto" id="What">
 				<div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-8">
 					<div
 						className="flex flex-col items-center justify-between"

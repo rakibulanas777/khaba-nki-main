@@ -15,8 +15,8 @@ const Clients = () => {
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		autoplay: true,
-		speed: 2000,
-		autoplaySpeed: 2000,
+		speed: 4000,
+		autoplaySpeed: 4000,
 		cssEase: "linear",
 		arrows: false,
 		responsive: [
@@ -48,7 +48,10 @@ const Clients = () => {
 	};
 	return (
 		<div>
-			<div className="container py-14 px-10 md:px-6 lg:px-0 mx-auto">
+			<div
+				className="container py-14 px-10 md:px-6 lg:px-0 mx-auto"
+				id="Clients"
+			>
 				<div className="text-center text-white font-medium text-2xl mb-8">
 					Our Clients
 				</div>

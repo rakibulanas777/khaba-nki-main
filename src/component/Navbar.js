@@ -62,10 +62,10 @@ function Navbar() {
 						What We do
 					</Link>
 					<Link
-						href="/login"
-						onClick={() => setActive(1)}
+						href="#Clients"
+						onClick={() => setActive(2)}
 						className={
-							active === 1
+							active === 2
 								? "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-purple-500"
 								: "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-white"
 						}
@@ -73,10 +73,10 @@ function Navbar() {
 						Our Clients
 					</Link>
 					<Link
-						href="/login"
-						onClick={() => setActive(1)}
+						href="#Contact"
+						onClick={() => setActive(3)}
 						className={
-							active === 1
+							active === 3
 								? "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-purple-500"
 								: "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-white"
 						}
@@ -84,10 +84,10 @@ function Navbar() {
 						Contact
 					</Link>
 					<Link
-						href="/login"
-						onClick={() => setActive(1)}
+						href="#job"
+						onClick={() => setActive(4)}
 						className={
-							active === 1
+							active === 4
 								? "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-purple-500"
 								: "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-white"
 						}
@@ -119,9 +119,8 @@ function Navbar() {
 						}
 					>
 						<ul className="flex flex-col space-y-5">
-							{/* work */}
 							<Link
-								href="/#foods"
+								href="#aboutus"
 								onClick={() => setActive(0)}
 								className={
 									active === 0
@@ -134,7 +133,7 @@ function Navbar() {
 							{/* login */}
 
 							<Link
-								href="/login"
+								href="#What"
 								onClick={() => setActive(1)}
 								className={
 									active === 1
@@ -145,10 +144,10 @@ function Navbar() {
 								What We do
 							</Link>
 							<Link
-								href="/login"
-								onClick={() => setActive(1)}
+								href="#Clients"
+								onClick={() => setActive(2)}
 								className={
-									active === 1
+									active === 2
 										? "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-purple-500"
 										: "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-white"
 								}
@@ -156,10 +155,10 @@ function Navbar() {
 								Our Clients
 							</Link>
 							<Link
-								href="/login"
-								onClick={() => setActive(1)}
+								href="#Contact"
+								onClick={() => setActive(3)}
 								className={
-									active === 1
+									active === 3
 										? "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-purple-500"
 										: "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-white"
 								}
@@ -167,10 +166,10 @@ function Navbar() {
 								Contact
 							</Link>
 							<Link
-								href="/login"
-								onClick={() => setActive(1)}
+								href="#job"
+								onClick={() => setActive(4)}
 								className={
-									active === 1
+									active === 4
 										? "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-purple-500"
 										: "cursor-pointer text-sm lg:text-base xl:text-base font-medium text-white"
 								}

@@ -23,8 +23,8 @@ function Navbar() {
 	}, []);
 
 	return (
-		<div className=" fixed left-0 top-0 w-full z-30 ease-in duration-300 shadow-sm backdrop-blur-md">
-			<div className="container mx-auto flex justify-between items-center px-10 lg:px-0 py-2 ">
+		<div className="  w-full z-30 relative ease-in duration-300 ">
+			<div className="container mx-auto flex  items-center px-10 lg:px-0 py-2 ">
 				<Link
 					href="/"
 					className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
@@ -32,10 +32,10 @@ function Navbar() {
 					<img
 						src="/assets/Jpeg-removebg-preview 1.png"
 						alt=""
-						className="h-16"
+						className="h-20"
 					/>
 				</Link>
-				<ul className="hidden  lg:flex lg:text-xl lg:justify-center  lg:items-center font-semibold gap-3 md:space-x-4 !text-gray-900">
+				<ul className="hidden  lg:flex lg:text-xl lg:justify-center mx-auto  lg:items-center font-semibold gap-3 md:space-x-4 !text-gray-900">
 					{/* work */}
 					<Link
 						href="/#foods"

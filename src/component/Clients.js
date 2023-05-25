@@ -49,14 +49,6 @@ const Clients = () => {
 	return (
 		<div>
 			<div className="container py-14 px-10 md:px-6 lg:px-0 mx-auto">
-				<div
-					className="text-center w-full mb-3 lg:mb-0 lg:w-96 mx-auto"
-					data-aos="fade-up"
-				>
-					Effortlessly scale your business with our streamlined virtual
-					assistant hiring services. Experience exceptional results and savings
-					with tailored assistants.
-				</div>
 				<div className="text-center text-white font-medium text-2xl mb-8">
 					Our Clients
 				</div>

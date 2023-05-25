@@ -28,8 +28,10 @@ const Hero = () => {
 								and cost savings to propel your business forward.
 							</div>
 						</div>
-						<button className="px-8 py-3 text-black bg-red-600 rounded-full button">
-							Contact us
+						<button className="px-8 mt-8 py-3 mx-auto text-center text-black bg-red-600 rounded-full flex items-center space-x-3 button">
+							<span>Contact us</span>
+
+							<img src="/assets/bi_arrow-up-right.png" alt="" srcset="" />
 						</button>
 					</div>
 					<div className="p-5 cursor-pointer" data-aos="fade-down">

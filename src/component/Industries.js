@@ -12,7 +12,7 @@ const Industries = () => {
 				<div className="text-start text-white font-medium text-2xl mb-4">
 					Industries We Work In
 				</div>
-				<div className="text-start text-white font-medium text-md mb-8">
+				<div className="text-start text-white  text-sm mb-8">
 					Find the right solution no matter what you do
 				</div>
 				<div className="grid grid-cols-1 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

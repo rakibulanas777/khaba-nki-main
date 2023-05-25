@@ -62,7 +62,7 @@ const Testimonial = () => {
 									</p>
 								</div>
 								<div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center">
-									<a className="inline-flex items-center">
+									<a className="inline-flex items-start">
 										<img
 											alt="testimonial"
 											src="/assets/Ellipse 5.png"
@@ -101,7 +101,7 @@ const Testimonial = () => {
 									has been invaluable to our team's success.”
 								</p>{" "}
 								<div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center">
-									<a className="inline-flex items-center">
+									<a className="inline-flex items-start">
 										<img
 											alt="testimonial"
 											src="/assets/Ellipse 5.png"

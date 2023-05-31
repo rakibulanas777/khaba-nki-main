@@ -48,7 +48,7 @@ const Testimonial = () => {
 				<div className=" relative z-10">
 					<Slider {...settings}>
 						<div className="p-4">
-							<div className="h-80 lg:h-72 flex flex-col justify-between testimonial p-8 rounded">
+							<div className="h-96 lg:h-72 flex flex-col justify-between testimonial p-8 rounded">
 								<div>
 									<img
 										src="/assets/fontisto_quote-a-right.png"
@@ -85,7 +85,7 @@ const Testimonial = () => {
 							</div>
 						</div>
 						<div className="p-4">
-							<div className="h-80 lg:h-72 testimonial p-8 rounded">
+							<div className="h-96 lg:h-72 testimonial p-8 rounded">
 								<img
 									src="/assets/fontisto_quote-a-right.png"
 									className="mb-2"

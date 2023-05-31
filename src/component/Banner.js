@@ -8,7 +8,7 @@ const Banner = () => {
 		AOS.refresh();
 	}, []);
 	return (
-		<div className="relative h-screen lg:h-screen ">
+		<div className="relative h-[800px] lg:h-[700px] xl:h-screen ">
 			<Image
 				src="/assets/Component 7.png"
 				layout="fill"
@@ -16,16 +16,13 @@ const Banner = () => {
 				objectFit="cover"
 			/>
 			<Navbar />
-			<div
-				className="absolute md:top-1/4 top-1/2 -translate-y-1/2 z-10 md:-translate-y-1/4  left-1/4 -translate-x-1/2"
-				data-aos="fade-down"
-			>
-				<p
-					className="text-4xl sm:text-5xl md:text-6xl leading-relaxed lg:text-8xl font-bold text-white "
-					id="aboutus"
+			<div className="absolute  md:top-1/4 top-1/2  -translate-y-1/2 z-10 md:-translate-y-1/4  left-1/2 2xl:left-1/2 -translate-x-1/2  2xl:-translate-x-1/2  ">
+				<div
+					className="text-4xl lg:text-start text-center  sm:text-5xl md:text-6xl leading-relaxed lg:text-8xl font-bold text-white"
+					data-aos="fade-down"
 				>
 					Outsourcing <br /> Agency
-				</p>
+				</div>
 			</div>
 			<img
 				src="/assets/RemoteHireNow_Pitch_Deck__1_-removebg-preview 2.png"
@@ -38,8 +35,8 @@ const Banner = () => {
 				className="absolute bottom-24 h-16 left-1/4 -translate-x-1/2"
 				alt=""
 			/>
-			<div className="absolute bottom-10 left-1/4 ">
-				<div className="flex items-center justify-between flex-col">
+			<div className="absolute bottom-10  text-center lg:left-1/4 2xl:left-1/2  2xl:-translate-x-1/2">
+				<div className="flex items-center justify-center flex-col">
 					<div className="text-white " data-aos="fade-up">
 						Effortlessly scale your business with our streamlined virtual
 						assistant hiring services. <br /> Experience exceptional results and

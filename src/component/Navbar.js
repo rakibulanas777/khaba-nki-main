@@ -24,15 +24,15 @@ function Navbar() {
 
 	return (
 		<div className="  w-full z-30 relative ease-in duration-300 ">
-			<div className="container mx-auto flex justify-between lg:justify-center  items-center px-10 lg:px-0 py-2 ">
+			<div className="container mx-auto flex justify-between lg:justify-center items-center  lg:items-start px-10 lg:px-0 py-2 lg:pt-5 ">
 				<Link
 					href="/"
-					className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+					className="flex title-font font-medium items-center text-gray-900 lg:mb-4 md:mb-0"
 				>
 					<img
 						src="/assets/Jpeg-removebg-preview 1.png"
 						alt=""
-						className="h-20"
+						className="h-16 lg:h-24"
 					/>
 				</Link>
 				<ul className="hidden  lg:flex lg:text-xl lg:justify-center mx-auto  lg:items-center font-semibold gap-3 md:space-x-4 !text-gray-900">

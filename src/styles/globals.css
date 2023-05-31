@@ -25,6 +25,8 @@ body {
 }
 .pink-card {
 	background: linear-gradient(180deg, #f06f79 0%, #64465b 100%);
+	width: 350px;
+	height: 100%;
 }
 .testimonial {
 	background: rgba(59, 67, 89, 0.5);

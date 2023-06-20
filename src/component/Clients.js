@@ -60,13 +60,16 @@ const Clients = () => {
 						{...settings}
 						className=" flex items-center justify-center gap-8  "
 					>
+						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
+							<img src="/assets/image 1.png" className="h-20" alt="logo" />
+						</div>
 						<div
 							className="logo cursor-pointer border-0 px-4"
 							data-aos="zoom-in"
 						>
 							<img
 								src="/assets/Vsion Logo 1.png"
-								className="h-14 items-center"
+								className="h-20 items-center"
 								alt="logo "
 							/>
 						</div>
@@ -74,34 +77,27 @@ const Clients = () => {
 							<img
 								src="/assets/site_logo-10 1.png"
 								alt="logo"
-								className="items-center h-14"
+								className="items-center h-20"
 							/>
 						</div>
 						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
 							<img
 								src="/assets/Group 1000000836.png"
-								className="items-center h-14"
+								className="items-center h-20"
 								alt="logo"
 							/>
 						</div>
 						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
 							<img
 								src="/assets/logo 1.png"
-								className="items-center h-14"
+								className="items-center h-20"
 								alt="logo"
 							/>
 						</div>
 						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
 							<img
 								src="/assets/Group 1000000838.png"
-								className="h-14"
-								alt="logo"
-							/>
-						</div>
-						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img
-								src="/assets/Group 1000000838.png"
-								className="h-14"
+								className="h-20"
 								alt="logo"
 							/>
 						</div>

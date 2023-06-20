@@ -32,7 +32,7 @@ function Navbar() {
 					<img
 						src="/assets/Jpeg-removebg-preview 1.png"
 						alt=""
-						className="h-16 lg:h-24"
+						className="h-16 lg:h-32"
 					/>
 				</Link>
 				<ul className="hidden  lg:flex lg:text-xl lg:justify-center mx-auto  lg:items-center font-semibold gap-3 md:space-x-4 !text-gray-900">

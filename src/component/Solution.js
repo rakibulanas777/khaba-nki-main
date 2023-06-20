@@ -7,7 +7,7 @@ const Solution = () => {
 		Aos.refresh();
 	}, []);
 	return (
-		<div className="solution relative">
+		<div className="solution relative lg:h-screen">
 			<div className="pink-card absolute hidden lg:block left-0"></div>
 			<div className="container mx-auto">
 				<div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-11 gap-8 mx-auto ">

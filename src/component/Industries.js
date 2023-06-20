@@ -17,49 +17,49 @@ const Industries = () => {
 				</div>
 				<div className="grid grid-cols-1 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl shadow-lg text-center h-28 items-center hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						Amazon FBA
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl text-center shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
-						Marketing & Advertising
+						Marketing & <br /> Advertising
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all text-center duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
-						Software Development
+						Software <br /> Development
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all text-center duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						E-Commerce
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl h-28 text-center shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
-						Coaching & Consulting
+						Coaching & <br /> Consulting
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl text-center self-center !my-auto h-28 content-center  shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						Tax Services
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl text-center shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
-						Sales & Business Development
+						Sales & Business <br /> Development
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
+						className="text-xl shadow-lg text-center hover:shadow-red-400 cursor-pointer transition-all duration-500 font-medium text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						& Many More

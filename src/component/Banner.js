@@ -25,7 +25,7 @@ const Banner = () => {
 				</div>
 			</div>
 			<img
-				src="/assets/RemoteHireNow_Pitch_Deck__1_-removebg-preview 2.png"
+				src="/assets/Heading 1.svg"
 				alt=""
 				className="absolute top-1/4 -translate-y-1/2   right-0 h-[500px] md:h-screen z-0"
 			/>

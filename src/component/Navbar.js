@@ -32,13 +32,13 @@ function Navbar() {
 					<img
 						src="/assets/Jpeg-removebg-preview 1.png"
 						alt=""
-						className="h-16 lg:h-32"
+						className="h-16 lg:h-28"
 					/>
 				</Link>
-				<ul className="hidden  lg:flex lg:text-xl lg:justify-center mx-auto  lg:items-center font-semibold gap-3 md:space-x-4 !text-gray-900">
+				<ul className="hidden  lg:flex lg:text-xl lg:justify-center mx-auto pt-3 lg:items-center font-semibold gap-3 md:space-x-4 !text-gray-900">
 					{/* work */}
 					<Link
-						href="#aboutus"
+						href="/#aboutus"
 						onClick={() => setActive(0)}
 						className={
 							active === 0
@@ -120,7 +120,7 @@ function Navbar() {
 					>
 						<ul className="flex flex-col space-y-5">
 							<Link
-								href="#aboutus"
+								href="/#aboutus"
 								onClick={() => setActive(0)}
 								className={
 									active === 0
@@ -144,7 +144,7 @@ function Navbar() {
 								What We do
 							</Link>
 							<Link
-								href="#Clients"
+								href="/#Clients"
 								onClick={() => setActive(2)}
 								className={
 									active === 2
@@ -155,7 +155,7 @@ function Navbar() {
 								Our Clients
 							</Link>
 							<Link
-								href="#Contact"
+								href="/#Contact"
 								onClick={() => setActive(3)}
 								className={
 									active === 3
@@ -166,7 +166,7 @@ function Navbar() {
 								Contact
 							</Link>
 							<Link
-								href="#job"
+								href="/job"
 								onClick={() => setActive(4)}
 								className={
 									active === 4

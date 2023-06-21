@@ -56,56 +56,250 @@ const Clients = () => {
 					Our Clients
 				</div>
 				<div className=" px-10">
-					<Slider
-						{...settings}
-						className=" flex items-center justify-center gap-8  "
-					>
-						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img
-								src="/assets/image 1.png"
-								className="items-center mx-auto content-center self-center"
-								alt="logo"
-							/>
+					<div class="marquee">
+						<div class="marquee-content">
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/image 1.png"
+									className="items-center mx-auto content-center self-center"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer border-0 px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Vsion Logo 1.png"
+									className="h-20 mx-auto self-center content-center items-center"
+									alt="logo "
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/site_logo-10 1.png"
+									alt="logo"
+									className="items-center self-center content-center mx-auto"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000836.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/logo 1.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000838.png"
+									className=" h-20 mx-auto self-center content-center items-center"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/image 1.png"
+									className="items-center mx-auto content-center self-center"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer border-0 px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Vsion Logo 1.png"
+									className="h-20 mx-auto self-center content-center items-center"
+									alt="logo "
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/site_logo-10 1.png"
+									alt="logo"
+									className="items-center self-center content-center mx-auto"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000836.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/logo 1.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000838.png"
+									className=" h-20 mx-auto self-center content-center items-center"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/image 1.png"
+									className="items-center mx-auto content-center self-center"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer border-0 px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Vsion Logo 1.png"
+									className="h-20 mx-auto self-center content-center items-center"
+									alt="logo "
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/site_logo-10 1.png"
+									alt="logo"
+									className="items-center self-center content-center mx-auto"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000836.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/logo 1.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000838.png"
+									className=" h-20 mx-auto self-center content-center items-center"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/image 1.png"
+									className="items-center mx-auto content-center self-center"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer border-0 px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Vsion Logo 1.png"
+									className="h-20 mx-auto self-center content-center items-center"
+									alt="logo "
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/site_logo-10 1.png"
+									alt="logo"
+									className="items-center self-center content-center mx-auto"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000836.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/logo 1.png"
+									className="items-center self-center content-center mx-auto"
+									alt="logo"
+								/>
+							</div>
+							<div
+								className="marquee-item cursor-pointer px-4"
+								data-aos="zoom-in"
+							>
+								<img
+									src="/assets/Group 1000000838.png"
+									className=" h-20 mx-auto self-center content-center items-center"
+									alt="logo"
+								/>
+							</div>
 						</div>
-						<div
-							className="logo cursor-pointer border-0 px-4"
-							data-aos="zoom-in"
-						>
-							<img
-								src="/assets/Vsion Logo 1.png"
-								className="h-20 mx-auto self-center content-center items-center"
-								alt="logo "
-							/>
-						</div>
-						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img
-								src="/assets/site_logo-10 1.png"
-								alt="logo"
-								className="items-center self-center content-center mx-auto"
-							/>
-						</div>
-						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img
-								src="/assets/Group 1000000836.png"
-								className="items-center self-center content-center mx-auto"
-								alt="logo"
-							/>
-						</div>
-						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img
-								src="/assets/logo 1.png"
-								className="items-center self-center content-center mx-auto"
-								alt="logo"
-							/>
-						</div>
-						<div className="logo cursor-pointer px-4" data-aos="zoom-in">
-							<img
-								src="/assets/Group 1000000838.png"
-								className=" h-20 mx-auto self-center content-center items-center"
-								alt="logo"
-							/>
-						</div>
-					</Slider>
+					</div>
 				</div>
 			</div>
 		</div>

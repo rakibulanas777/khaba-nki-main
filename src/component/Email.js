@@ -7,7 +7,7 @@ const Email = () => {
 		Aos.refresh();
 	}, []);
 	return (
-		<div className="relative">
+		<div className="relative" id="Contact">
 			<img
 				src="/assets/RemoteHireNow_Pitch_Deck__1_-removebg-preview 1.png"
 				className="absolute left-0 h-96 -top-1/2 "

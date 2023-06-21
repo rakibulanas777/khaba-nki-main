@@ -62,7 +62,7 @@ function Navbar() {
 						What We do
 					</Link>
 					<Link
-						href="#Clients"
+						href="/#Clients"
 						onClick={() => setActive(2)}
 						className={
 							active === 2
@@ -73,7 +73,7 @@ function Navbar() {
 						Our Clients
 					</Link>
 					<Link
-						href="#Contact"
+						href="/#Contact"
 						onClick={() => setActive(3)}
 						className={
 							active === 3
@@ -84,7 +84,7 @@ function Navbar() {
 						Contact
 					</Link>
 					<Link
-						href="#job"
+						href="/job"
 						onClick={() => setActive(4)}
 						className={
 							active === 4

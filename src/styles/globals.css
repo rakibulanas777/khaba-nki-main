@@ -36,3 +36,9 @@ body {
 	border-radius: 10px;
 	border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.footer-part {
+	background: rgba(255, 255, 255, 0.2) !important;
+}
+.footer-card {
+	background-color: #f06f79 !important;
+}

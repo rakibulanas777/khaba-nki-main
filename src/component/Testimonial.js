@@ -11,9 +11,9 @@ const Testimonial = () => {
 		slidesToShow: 2,
 		slidesToScroll: 2,
 		autoplay: true,
-		speed: 4000,
+		speed: 10000,
 		infinite: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 10000,
 		cssEase: "linear",
 		initialSlide: 0,
 		responsive: [

@@ -43,7 +43,7 @@ const Hero = () => {
 						<img
 							src="/assets/Group 1000000845.png"
 							alt=""
-							className="h-[600px]"
+							className=" w-full lg:h-[600px] lg:w-auto"
 						/>
 					</div>
 				</div>

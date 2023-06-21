@@ -23,19 +23,19 @@ const Industries = () => {
 						Amazon FBA
 					</div>
 					<div
-						className="text-xl text-center shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-bold text-white py-4 px-6 card "
+						className="text-xl h-28 text-center shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-bold text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						Marketing & <br /> Advertising
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all text-center duration-500 font-bold text-white py-4 px-6 card "
+						className="text-xl shadow-lg h-28 hover:shadow-red-400 cursor-pointer transition-all text-center duration-500 font-bold text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						Software <br /> Development
 					</div>
 					<div
-						className="text-xl shadow-lg hover:shadow-red-400 cursor-pointer transition-all text-center duration-500 font-bold text-white py-4 px-6 card "
+						className="text-xl shadow-lg h-28 hover:shadow-red-400 cursor-pointer transition-all text-center duration-500 font-bold text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						E-Commerce
@@ -53,13 +53,13 @@ const Industries = () => {
 						Tax Services
 					</div>
 					<div
-						className="text-xl text-center shadow-lg hover:shadow-red-400 cursor-pointer transition-all duration-500 font-bold text-white py-4 px-6 card "
+						className="text-xl text-center shadow-lg hover:shadow-red-400 h-28 cursor-pointer transition-all duration-500 font-bold text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						Sales & Business <br /> Development
 					</div>
 					<div
-						className="text-xl shadow-lg text-center hover:shadow-red-400 cursor-pointer transition-all duration-500 font-bold text-white py-4 px-6 card "
+						className="text-xl shadow-lg text-center hover:shadow-red-400 h-28 cursor-pointer transition-all duration-500 font-bold text-white py-4 px-6 card "
 						data-aos="zoom-in"
 					>
 						& Many More

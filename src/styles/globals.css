@@ -42,7 +42,9 @@ body {
 .footer-card {
 	background-color: #f06f79 !important;
 }
-
+.marquee {
+	overflow: hidden;
+}
 .marquee-content {
 	display: flex;
 	animation: scrolling 40s linear infinite;
@@ -69,5 +71,15 @@ body {
 	}
 	100% {
 		transform: translatex(-244vw);
+	}
+}
+
+@media (max-width: 700px) {
+	.marquee-item {
+		flex: 0 0 32vw;
+		align-items: center;
+		margin: 0 1vw;
+		/*   flex: 0 0 20vw; */
+		/*   margin: 0 2vw; */
 	}
 }

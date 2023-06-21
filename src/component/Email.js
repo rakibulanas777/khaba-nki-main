@@ -16,7 +16,7 @@ const Email = () => {
 			/>
 			<div className="container !z-10 relative  py-24 px-10 md:px-6 lg:px-0 mx-auto">
 				<div
-					className=" flex flex-col sm:flex-row space-x-8 items-center justify-center"
+					className=" flex flex-col sm:flex-row space-y-4 sm:space-y-0 space-x-8 items-center justify-center"
 					data-aos="zoom-in"
 				>
 					<div className="text-xl font-medium text-white">
